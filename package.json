@@ -1,0 +1,8 @@
+{
+  "name": "polyphonic_ctrl",
+  "version": "0.0.1",
+  "description": "a Polyphonic audio controller using socket.io.",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
