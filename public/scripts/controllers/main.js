@@ -10,7 +10,7 @@
 angular.module('infernoQuadrifonicoApp')
   .controller('MainCtrl', function ($http, $scope, $interval, $localStorage) {
 
-    var useLocalStorage = true;
+    var useLocalStorage = false;
     var socket = io("", { query: "type=controller"});
     $scope.playing = [];
 

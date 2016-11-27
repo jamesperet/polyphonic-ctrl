@@ -1136,7 +1136,6 @@
         {
           "url" : "public/audio/wav/096.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
-
           "loop" : false
         }
       ]
@@ -1149,7 +1148,6 @@
         {
           "url" : "public/audio/wav/098c.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
-
           "loop" : false
         }
       ]
@@ -1162,13 +1160,974 @@
         {
           "url" : "public/audio/wav/102.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
-
           "loop" : false
         },
         {
           "url" : "public/audio/ruidos/samples_simposio/redondo.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
-
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota" : "103 (Satélite cumprimentando aos raios de JOVE:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/103x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota" : "104 (Reporters:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/104x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota" : "105 (Corretores achando causa à baixa do câmbio em WALL STREET:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/105.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota" : "106 (Procissão internacional, povo de Israel, Orangianos,<br>Fenianos, Budas, Mórmons, Comunistas, Niilistas, <br>Farricocos, Railroad-Strikers, All-brokers, All jobbers, <br>All-saints, All-devils, lanternas, música, sensação; <br>Reporters: passa em LONDON o ‘assassino’ da <br>RAINHA e em PARIS ‘Lot’ o fugitivo de SODOMA:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/samples_simposio/procissao_mixdown.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota" : "110 (Fotófonos-estilógrafos direitos sagrados de defesa:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/110x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "111 (MITRIDATES à prova de amigos toxicums:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/111.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "112 (‘Imaginária imprensa’ em maré-vazante coçando a cabeça:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/112x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/112.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "114 (Surge frighter vermina GUITEAU; risadas a um tiro de pólvora seca em FOURTH-JULY)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/114b.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/tiro.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "107 (Feiticeiras de KING-ARTHUR e vidente FOSTER em WALPURGIS de dias)",
+      "leitura": "<p>— When the battle's lost and won —<br>— That will be ere the set of sun —<br>— Paddock calls: Anon! —<br>— Fair is foul, and foul is fair:<br>Hover through the fog and filthy air!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/107.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/bruxa_corredores.mp3",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "108 (SWEDENBORG respondendo depois:)",
+      "leitura": "—Há mundos futuros: república,<br>Cristianismo, céus, Loengrim.<br>São mundos presentes:<br>Patentes,<br><br>Vanderbilt-North, Sul-Serafim.<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/108.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "109 (Ao fragor de JERICÓ encalha HENDRICK HUDSON, os ÍNDIOS vendem aos HOLANDESES a ilha de MANHATTAN malassombrada:)",
+      "leitura": "— A Meia-Lua, proa pra China,<br>Está crenando emTappan-Zee ...<br>Hoogh moghende Heeren<br>Pois tirem<br><br>Por guildens sessenta ... Yea! Yea<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/109x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "113 (KATIES fazendo camas-ratoeiras; sister NEWCOAT-SHAFFEY:)",
+      "leitura": "—'Masher H'rald some stain in 't wants:’<br>N'alta cerviz ... vampiro ! ao meio ...<br>O! O! O! cocktail!<br>= Paga bail,<br>Ou ... não há diabo mais feio!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/113.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "115 (SEPARATISTAS, CHINS, CAESARINOS, contra GARFIELD, em ‘corner’:)",
+      "leitura": "— Cuidado, ó vós, co'os sinking-faces<br>Cassius-Romano, Lincoln,'Lot'!<br>= A tais, Sul, nem Roma,<br>Ou Sodoma,<br><br>Resistem! — Valente Guiteau!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/115c.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "116 (Flores cobrindo à queda das frutas:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/116x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "117 (Freelovers passando a votar em seus maridos:",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/117.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo3.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo4.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo5.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/ouro_terra_amor_rosas.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/idontknow.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/pitch.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/kendrick2.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/kendrick3.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/kendrick4.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/kendrick5.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/kendrick6.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "118 (APOCALÍPTICAS visões ... caluniosas:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/118.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "119 (Apedrejadores do ocaso; índio estuporado à clarabóia magnética:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/119b.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/Kaiown.mp3",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo_2.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "120 (Assassinos alegres engordando nos plafonds da cadeira:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/120xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "121 (PLYMOUTH ‘on evolution’ sentimental; HERALD ‘on involution’ estomacal:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/wav/121x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/peido_duprat.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "122 (Pagã LUCRÉCIA antiga; moderna cristã LUCRÉCIA:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/122x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "123 (HALL-HALL comendo o enxofre de SODOMA; MARWOOD torcendo os bigodes:)",
+      "leitura": "— Estomacal ... até que sonhas<br>Com ‘Lot’ e os ‘anjos’, ou Abraão!<br>= Ou Jam’-Benne’-Gord’,<br>A quem corda<br><br>De Guiteau espera! .. ah! gil-Jam’!",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/123.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/wav/ruidos/samples_simposio/peido_duprat.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "124 (‘Voltam feitiços contra feiticeiros’; mãos divinas oferecendo o ‘copo-d’água-DEUS’ aos ‘que têm sede de justiça’:)",
+      "leitura": "— Ó burglars, Gomorra e Sodoma<br>Fugiram os queridos dos céus!<br>No súlfur quedando<br>E estourando<br><br>Os Sodomões e os Gomorreus!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/124.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "125 (Dois reverendos espatifando-se ao clarão do fogo celeteste:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/125xb.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "130 (NEWARK ‘dosed’-girl, aux bois dormante, expirando:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/130x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "132 (‘Legendário FINANCE’ divorciando a duas ‘ilhas dos amores’; elas:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/132x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "137 (Eléctricas sweethearts à ‘school-rod-system’ preferindo o pára-raios de FRANKLIN:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/137xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "126 (Consciências perante a história substituindo aos destruídos NATURAIS:)",
+      "leitura": "— Chumbando Booths aos reis-‘gorilas’,<br>A raça melhoram de cor:<br>E o negro Africano,<br>Amer'cano<br><br>Já é peau-rouge! será brancor!br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/126x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "127 (DR.TALMAGE; MESSRS. DONOVAN & CO. curtindo peles variegadas humanas:)",
+      "leitura": "— Gentlemen: disciplo ‘inspirado’,<br>A Beecher não vende Guiteau!<br>= De Stewart o couro<br>Pesa ouro<br><br>Em polimento, em moroccô!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/127.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "128 (REV. BEECHER, vendo subscrição antes ‘gladdening the sufferers e sensação após ‘saddening the glads,’ não crê mais na palavra, ‘recomenda sabão à congregação’ e monta em ‘seu bicycle’:)",
+      "leitura": "Some stain is in that new business<br>Que pear-soap não pode lavar!<br>— ‘Washerwomen ‘nodoam’<br>E entoam<br><br>Herald-Flood-Fund,’ a ensaboar! …<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/128x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "129 (Outros alagados salvando-se na coluna ‘666’ do templo de KUN:)",
+      "leitura": "— Agripina é Roma-Manhattan<br>Em rum e em petróleo a inundar<br>Herald-o-Nero aceso facho<br>E borracho,<br><br>Mãe-pátria ensinando a nadar! ...<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/129x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "131 (Animated torrid-Zone — EMERSON proprietário a incêndios; G. DIAS nos fire-proofs mares:)",
+      "leitura": "— Do caos sejam ecos caóticos,<br>Qual criação de Jeová!<br>= A Plato, Inglaterras;<br>Palmeiras<br><br>A’ tórrida-zona-sabiá!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/131xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "136  (Ursa em loucura; JOSEPHUS, embrulhado na secundum-artem bordada túnica do centauro, interpreta os pesadelos de FARAÓ:)",
+      "leitura": "— Yankees diamantes, ‘fixe’ Nessus ...<br>Vingança, Eunuco Putifar!<br>= Lindas ursitas<br>Serão malditas<br><br>D'ursas-mores, que hão devorar! ..<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/136.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "138 (Sentimentais doctoras carbonizando o coração do GUESA:)",
+      "leitura": "— Que escorra sangue, não veneno ...<br>= Um 'morango'! — Oh ... todo ouro e dor ...<br>= Fossilpetrifique!<br>Ai ... não fique<br><br>Sem glória o Inca e o astro sem flor ...<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/138xb.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/coracao_fade.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "139 (A Voz, ida dos anjos — vinda dos vampiros:)",
+      "leitura": "— Napoleão sem mais estrela, ...<br>Nuvem de corvos em Moscou,<br>Ring-negro horizonte,<br>Na fronte<br><br>Foi-lhe a coroa que obumbrou! ..<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/139.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "140 (HERALD safe-guardando $2 do último e nunca-nato<br>quinquagenário personal de 'HONOURABLE';<br>policeman lisonjeando-lhe a gola do business coat:)",
+      "leitura": "— 'Is there any hope for parvenu?’<br>= Com certeza não, Sir Burglár!<br>Patentes fazendo,<br>Por 'shadows’ roendo'<br><br>Da prima coluna os 'dollárs'! ..<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/140xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/Cash_140.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "141 (DOM PEDRO à meia-noite na soirée do N.Y. HERALD:)",
+      "leitura": "— No Solimões esta é a hora<br>Em que a luz se apaga e também<br>turemizam tais<br>Personais<br><br>Quais no Hudson ... bravos ! Jam' -Benn'!",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/141x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "145 (HERALD advogando a causa chim-comercial:)",
+      "leitura": "— In-God-we-trust ‘not worth its price,<br>A great swindle is silver dollar'!<br>Se em Deus nós cremos,<br>Descremos:<br><br>Amor pagado há mor pagar ...<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/145.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "147 (Rei julgado limpo fora, e sujo dentro do seu reino:)",
+      "leitura": "— ‘Liberal’; ‘flying’ ;  ‘nem tem domingo,<br>Visita tudo!’ = Pra Inglês ver;<br>Mais val ‘Joana a doida’,<br>Que à roda<br><br>Ao menos ensina a varrer?<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/147x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/arrombado2.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "149 (Magnético-caleidoscópicos sonhos de NAPOLEÃO ante a campanha de WATERLOO:)",
+      "leitura": "— Very smarts! O! O! very smarts!<br>Vós godmakers, eia ao valor!<br>Arautos de tretas,<br>Caretas,<br><br>Não vos sobe o incenso na cor?",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/149x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "150 (ROSEMAN lendo cristianíssimos personals e aplicando a \"low people, low punishment\":)",
+      "leitura": "— 'Papers explain. Certainly, though terrible' ..<br>Ciência heráldea, 'paradise lost’ ...<br>A 'purring match'!<br>And lash! and lash!<br><br>Chinois-Bennett à 'whipping post'! ..",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/150x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "148 (Reporters-provarás how to get 'God ':)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/148x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "151 (Vampiros das trevas, oferecendo o império do mundo; DIÓGENES optando pelo banho do oceano :)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/samples_simposio/oceano_mixdown.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "152 (Gentlemen (saltimbancos) embarcando após DIÓGENES; comandante duplicando os placards do steamer)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/152.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "153 (O pai de 'ISAAC' alevantando o dedo ante a proposta d'almas dos príncipes de SODOMA:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/153b.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "142 (Sílvios dedos rutilando ao tipografar em vernáculo da ‘BANDEIRA ESTRELADA; POETA extático; a VOZ:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/142c.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "143 (‘Corners’ = reporters ‘on evolution’; GORD-JAM-BENN ‘flesh and devil’:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/143x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "144 (Forcas diabéticas-caudinas, mordomos distribuindo $5.000:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/144x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/cash144.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "155 (O GUESA sorteado em CITY-HALL; CANDIDE-VOLTAIRE:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/155.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "156 (‘Falta a CAESAR, nunca aos amores,’ DAVID desprezado de MICAL por andar saltando adiante da arca do ETERNO:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/156.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "157 (Gotas magnéticas nos ares a manipulação de imortais? um morto redivivo contra a vontade dos assassinos:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/samples_simposio/redivivo.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "159 (‘Cifra nas asas da quimera' crônica sobre rodízios ALMIGHTY-DOLLARS, gargalhadas à autópsia dos cadáveres:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/159x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "164 (Madres TON’TONA e CARNATA sem saberem que fazer des 'enfants'; colheita das 'rosas brancas':)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/164xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "165 (PAUL BERT, ‘la morale des JÉSUITES’: )",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/165.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "166 ('Vie drolatique' de ... RENAN; ZOLA realista:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/166x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "167 (Sobreditas, e pitonisas NORTHORNA e SERGAITA dissolvendo-se à manipulação de um imperador romano:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/167b.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "168 (Rei d’ESPANHA atarantado aos assobios de PARIS e distribuindo 10,000 francos; presidente GRÉVY:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/168x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/francos168.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "162 (Panaché FÍGARO aos sons do piston-vainqueur; às ímpias navalhas afiando, fazendo a barba aos PROFETAS e chinó às religiosas de claustro e ‘drástico':)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/162x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "160 (JEAN-LUIS-DE-PARIS e DAME-PÉLETIER preparando ceias do frio JANEIRO; REGENTE, APÓSTOLOS e ESTRANGEIROS, convidados:)",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/160.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "154 (Gentleman (pelotiqueiros) na catástrofe; HURIS lenços-verdes enxugando os olhos-mortos de SANSÃO:)",
+      "leitura": "— Do Guesa a Farsália explorada<br>Num 'corner' espremido o autor,<br>Dá ourão! = A musa<br>Cafusa<br><br>Dalila traiu-o ... que horror!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/154x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "158 (Inquisição das trevas, GUATIMOZIN nos braseiros:)",
+      "leitura": "— Dizer verdades que não dizem-se<br>Repúblicos, sem liquidar,<br>É de mais tesão!<br>Sensação<br><br>Liquide-o! .. e hipocôndrios cremar!",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/158.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "161 (Mesmas DAMAS e DAMAS RITA e GÂTÉE-HORTENSE dando boas-noites a seus hóspedes; HÉRCULES-GUTTENBERGS nos prelos magnéticos:)",
+      "leitura": "Se houverdes maus sonhos, sao'pulgas'...<br>Boas-noites, filhos de Alceu!<br>= Traição! fogo obsceno!<br>Veneno<br><br>Que em Manhattan lavas ardeu! ..",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/161x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "169 (Barbaria saindo do CEARÁ; civilização entrando em PARIS: generais BAZAINE e MOLTKE:)",
+      "leitura": "— ‘França é-te abismo, homem grosseiro,<br>Sob a Prússia ... Baila o cancã!<br>= ‘À taille fort fine’,<br>Badine<br><br>‘Nicht’ a armée grande em Sedan!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/169x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "170 (Quádruplo ‘correr’: V. HUGO monarquista; D. PEDRO republicano; ALFONSO uhlan; um guesa fabricado franco-yankee homunculus:)",
+      "leitura": "— ‘Com tal rei ‘petit' ainda eu fora’;<br>‘Sans-culotte’ eu sou mesmo rei';<br>— Grévy ... que vaias!<br>= Que, Hugo, o não traias ...<br><br>A horas dadas não voltarei.<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/170x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "171 (Áureos ZACS escovados noutros práticos mundos:)",
+      "leitura": "— Banindo os poetas, da ‘República’<br>Coroava-os com flores, Platão.<br>= Yunka-yankee os depena<br>Sem pena,<br><br>E zanga-se à história, pois não!<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/171b.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "172 (Cínico DIÓGENES do utrinque feriens ‘corner’ sem lanterna e achando a verdade-quadratura do ‘ring’:)",
+      "leitura": "— Very smarts! O! O! very smarts!<br>A moscas fazer sensações!<br>E uivar mundo todo:<br>Há um doido<br><br>(O ‘cão’) e há justos (os ladrões)! ..<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/172xa.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "NOTA PREPARANDO PARA O FINAL",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/samples_simposio/barbaros_fim2.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "174 (Nariz guatimalo cornado em facho d’HIMENEU; coração DAME-RYDER nas envenenadas vidraças do ‘too dark’ wedding-pudding:)",
+      "leitura": "— ‘Caramba! yo soy cirurjano —<br>Jesuíta ... yanke e ... industrial’ !<br>— Jó ... ou pousada<br>Malassombrada,<br><br>‘Byron’ magnetismo-animal! ...<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/174.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "175 (Práticos mistificadores fazendo seu negócio; self-help ATTA TROLL:)",
+      "leitura": "— Que indefeso caia o estrangeiro,<br>Que a usura não paga, o pagão!<br>= Orelha ursos tragam,<br>Se afagam,<br><br>Mammumma, mammumma, Mammão.<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/ruidos/samples_simposio/praticos_mixdown.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/Atta.mp3",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/SAMPLER_QUINCY/QUINCY_SAMPLERNOVO2a.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        }
+      ]
+    },
+    {
+      "nota": "176 (Magnético handle-organ; ring d'ursos sentenciando à pena-última o arquiteto da FARSÁLIA; odisseu fantasma nas chamas dos incêndios d’Álbion:)",
+      "leitura": "— Bear ... Bear é ber'beri, Bear ... Bear ...<br>= Mammumma, mammumma, Mammão!<br>— Bear ... Bear ... ber'... Pegàsus ...<br>Parnasus...<br><br>= Mammumma, mammumma, Mammão.<br>",
+      "playall" : true,
+      "arquivos" : [
+        {
+          "url" : "public/audio/wav/176x.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/audio/ruidos/samples_simposio/hahaha_oswald.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
+          "loop" : false
+        },
+        {
+          "url" : "public/ruidos/samples_simposio/sample_kendrick.wav",
+          "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
       ]
