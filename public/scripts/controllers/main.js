@@ -36,10 +36,8 @@ angular.module('infernoQuadrifonicoApp')
             for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
               $scope.roteiro[i].arquivos[c].playing = false;
               $scope.roteiro[i].arquivos[c].seek = 0;
-              $scope.roteiro[i].arquivos[c].surround_x = 0;
-              $scope.roteiro[i].arquivos[c].surround_y = 0;
+              $scope.roteiro[i].arquivos[c].show = false;
               $scope.loadAudioFile($scope.roteiro[i].arquivos[c]);
-              $scope.roteiro[i].arquivos[c].show = true;
             }
           }
         }
@@ -65,7 +63,7 @@ angular.module('infernoQuadrifonicoApp')
               src: [$scope.roteiro[i].arquivos[c].url],
               autoplay: false,
               loop: $scope.roteiro[i].arquivos[c].loop,
-              volume: ($scope.roteiro[i].arquivos[c].volume/100),
+              volume: ($scope.roteiro[i].arquivos[c].channels[0].volume/100),
               //stereo: $scope.roteiro[i].arquivos[c].pan,
               onend: function(id) {
                 for (var i = 0; i < $scope.roteiro.length; i++) {
@@ -76,6 +74,20 @@ angular.module('infernoQuadrifonicoApp')
                       console.log('Finished: ' + id + " | playing: " + $scope.roteiro[i].arquivos[c].playing);
                       $scope.$apply();
                       delete $scope.roteiro[i].arquivos[c].sound;
+                      break;
+                    }
+                  }
+                }
+              },
+              onload: function(id) {
+                for (var i = 0; i < $scope.roteiro.length; i++) {
+                  for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
+                    if($scope.roteiro[i].arquivos[c].id == id && $scope.roteiro[i].arquivos[c].show == false){
+                      if($scope.roteiro[i].arquivos[c].sound){
+                        $scope.roteiro[i].arquivos[c].duration = $scope.roteiro[i].arquivos[c].sound.duration();
+                        delete $scope.roteiro[i].arquivos[c].sound;
+                      }
+                      $scope.roteiro[i].arquivos[c].show = true;
                       break;
                     }
                   }
@@ -98,50 +110,11 @@ angular.module('infernoQuadrifonicoApp')
       for (var i = 0; i < $scope.roteiro.length; i++) {
         for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
           if($scope.roteiro[i].arquivos[c].url == arquivo.url){
-            if($scope.roteiro[i].arquivos[c].sound) {
-              //$scope.roteiro[i].arquivos[c].sound.volume($scope.roteiro[i].arquivos[c].volume/100);
-              //$scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].pan/100);
-              //$scope.roteiro[i].arquivos[c].sound.stop();
-              //$scope.roteiro[i].arquivos[c].sound.play();
-            } else {
-              var sound = new Howl({
-                //usingWebAudio: true,
-                //html5: false,
-                src: [$scope.roteiro[i].arquivos[c].url],
-                autoplay: false,
-                loop: $scope.roteiro[i].arquivos[c].loop,
-                volume: ($scope.roteiro[i].arquivos[c].volume/100),
-                //stereo: $scope.roteiro[i].arquivos[c].pan,
-                onend: function(id) {
-                  for (var i = 0; i < $scope.roteiro.length; i++) {
-                    for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
-                      if($scope.roteiro[i].arquivos[c].id == id){
-                        $scope.roteiro[i].arquivos[c].playing = false;
-                        $scope.roteiro[i].arquivos[c].seek = 0;
-                        console.log('Finished: ' + id + " | playing: " + $scope.roteiro[i].arquivos[c].playing);
-                        $scope.$apply();
-                        delete $scope.roteiro[i].arquivos[c].sound;
-                        break;
-                      }
-                    }
-                  }
-                }
-              });
-              $scope.roteiro[i].arquivos[c].sound = sound
-              //$scope.roteiro[i].arquivos[c].id = sound.play();
-            }
-            if($scope.sound_mode == "stereo"){
-              $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].pan);
-            } else {
-              //$scope.roteiro[i].arquivos[c].surround = [-1, 1, 1];
-              var x = $scope.roteiro[i].arquivos[c].surround_x;
-              var y = $scope.roteiro[i].arquivos[c].surround_y
-              $scope.roteiro[i].arquivos[c].sound.pos(x, y, 1);
-            }
+
             $scope.roteiro[i].arquivos[c].playing = true;
-            var d = $scope.roteiro[i].arquivos[c].sound.duration();
+            var d = $scope.roteiro[i].arquivos[c].duration;
             var s = $scope.roteiro[i].arquivos[c].seek;
-            $scope.roteiro[i].arquivos[c].sound.seek((d * s)/100)
+            $scope.roteiro[i].arquivos[c].channels[0].seek;
             console.log('Playing: ' + $scope.roteiro[i].arquivos[c].id + " | " + Math.floor((d * s)/100));
             sendPlayCommand($scope.roteiro[i].arquivos[c]);
           }
@@ -260,46 +233,6 @@ angular.module('infernoQuadrifonicoApp')
         }
     };
 
-    $scope.options_surround_x = {
-        from: -100,
-        to: 100,
-        step: 1,
-        realtime: true,
-        scale: [{val: 0, label:'X'}],
-        css: {
-            background: {"background-color": "white"},
-            before: {"background-color": "white"},// zone before default value
-            default: {"background-color": "white"}, // default value: 1px
-            after: {"background-color": "white"},  // zone after default value
-            pointer: {"background-color": "#999"},   // circle pointer
-            range: {"background-color": "white"} // use it if double value
-        },
-        callback: function(value, elt) {
-            console.log("Surround X:    " + value);
-            updateActiveSurround();
-        }
-    };
-
-    $scope.options_surround_y = {
-        from: -100,
-        to: 100,
-        step: 1,
-        realtime: true,
-        scale: [{val:0, label:'Y'}],
-        css: {
-            background: {"background-color": "white"},
-            before: {"background-color": "white"},// zone before default value
-            default: {"background-color": "white"}, // default value: 1px
-            after: {"background-color": "white"},  // zone after default value
-            pointer: {"background-color": "#999"},   // circle pointer
-            range: {"background-color": "white"} // use it if double value
-        },
-        callback: function(value, elt) {
-            console.log("Surround Y:    " + value);
-            updateActiveSurround();
-        }
-    };
-
     var updateTrackPosition = function(){
       for (var i = 0; i < $scope.roteiro.length; i++) {
         for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
@@ -312,9 +245,10 @@ angular.module('infernoQuadrifonicoApp')
                 //$scope.roteiro[i].arquivos[c].sound.seek((d * s)/100)
                 var arquivo = $scope.roteiro[i].arquivos[c];
                 delete arquivo.sound;
-                delete arquivo.volume;
-                arquivo.seek = (d * s)/100;
+                delete arquivo.channels[0].volume;
+                arquivo.channels[0].seek = (d * s)/100;
                 socket.emit('update playback', arquivo);
+
               }
             }
           }
@@ -331,8 +265,8 @@ angular.module('infernoQuadrifonicoApp')
             if($scope.roteiro[i].arquivos[c].sound){
               delete arquivo.sound;
             }
-            delete arquivo.pan;
-            delete arquivo.seek;
+            delete arquivo.channels[0].pan;
+            delete arquivo.channels[0].seek;
             socket.emit('update playback', arquivo);
           }
         }
@@ -348,22 +282,9 @@ angular.module('infernoQuadrifonicoApp')
             if($scope.roteiro[i].arquivos[c].sound){
               delete arquivo.sound;
             }
-            delete arquivo.volume;
-            delete arquivo.seek;
+            delete arquivo.channels[0].volume;
+            delete arquivo.channels[0].seek;
             socket.emit('update playback', arquivo);
-          }
-        }
-
-      }
-    }
-
-    var updateActiveSurround = function(){
-      for (var i = 0; i < $scope.roteiro.length; i++) {
-        for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
-          if($scope.roteiro[i].arquivos[c].sound){
-            var x = $scope.roteiro[i].arquivos[c].surround_x/100;
-            var y = $scope.roteiro[i].arquivos[c].surround_y/100;
-            $scope.roteiro[i].arquivos[c].sound.pos(x, y, 1)
           }
         }
 
@@ -388,7 +309,7 @@ angular.module('infernoQuadrifonicoApp')
       for (var i = 0; i < $scope.roteiro.length; i++) {
         for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
           if($scope.roteiro[i].arquivos[c].url == arquivo.url){
-            $scope.roteiro[i].arquivos[c].seek = 0;
+            $scope.roteiro[i].arquivos[c].channels[0].seek = 0;
             $scope.roteiro[i].arquivos[c].playing = false;
             //delete $scope.roteiro[i].arquivos[c].sound;
             console.log('Finished: ' + $scope.roteiro[i].arquivos[c].url + " | playing: " + $scope.roteiro[i].arquivos[c].playing);

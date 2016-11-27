@@ -33,9 +33,8 @@ angular.module('infernoQuadrifonicoApp')
        for (var i = 0; i < $scope.roteiro.length; i++) {
          for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
            $scope.roteiro[i].arquivos[c].playing = false;
-           $scope.roteiro[i].arquivos[c].seek = 0;
-           $scope.roteiro[i].arquivos[c].surround_x = 0;
-           $scope.roteiro[i].arquivos[c].surround_y = 0;
+           $scope.roteiro[i].arquivos[c].channels[0].seek = 0;
+           $scope.roteiro[i].arquivos[c].channels[1].seek = 0;
            $scope.loadAudioFile($scope.roteiro[i].arquivos[c]);
            $scope.roteiro[i].arquivos[c].show = true;
          }
@@ -53,14 +52,14 @@ angular.module('infernoQuadrifonicoApp')
               src: [$scope.roteiro[i].arquivos[c].url],
               autoplay: false,
               loop: $scope.roteiro[i].arquivos[c].loop,
-              volume: ($scope.roteiro[i].arquivos[c].volume/100),
-              stereo: $scope.roteiro[i].arquivos[c].pan,
+              volume: ($scope.roteiro[i].arquivos[c].channels[0].volume/100),
+              stereo: $scope.roteiro[i].arquivos[c].channels[0].pan,
               onend: function(id) {
                 for (var i = 0; i < $scope.roteiro.length; i++) {
                   for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
                     if($scope.roteiro[i].arquivos[c].id == id){
                       $scope.roteiro[i].arquivos[c].playing = false;
-                      $scope.roteiro[i].arquivos[c].seek = 0;
+                      $scope.roteiro[i].arquivos[c].channels[0].seek = 0;
                       console.log('Finished: ' + id + " | playing: " + $scope.roteiro[i].arquivos[c].playing);
                       $scope.$apply();
                       delete $scope.roteiro[i].arquivos[c].sound;
@@ -80,13 +79,13 @@ angular.module('infernoQuadrifonicoApp')
       for (var i = 0; i < $scope.roteiro.length; i++) {
         for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
           if($scope.roteiro[i].arquivos[c].url == arquivo.url){
-            $scope.roteiro[i].arquivos[c].volume = parseInt(arquivo.volume);
-            $scope.roteiro[i].arquivos[c].pan = parseInt(arquivo.pan);
-            $scope.roteiro[i].arquivos[c].seek = parseInt(arquivo.seek);
+            $scope.roteiro[i].arquivos[c].volume = parseInt(arquivo.channels[0].volume);
+            $scope.roteiro[i].arquivos[c].pan = parseInt(arquivo.channels[0].pan);
+            $scope.roteiro[i].arquivos[c].seek = parseInt(arquivo.channels[0].seek);
             console.log($scope.roteiro[i].arquivos[c])
             if($scope.roteiro[i].arquivos[c].sound) {
-              $scope.roteiro[i].arquivos[c].sound.volume($scope.roteiro[i].arquivos[c].volume/100);
-              $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].pan/100);
+              $scope.roteiro[i].arquivos[c].sound.volume($scope.roteiro[i].arquivos[c].channels[0].volume/100);
+              $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].channels[0].pan/100);
               $scope.roteiro[i].arquivos[c].sound.stop();
               $scope.roteiro[i].arquivos[c].sound.play();
             } else {
@@ -96,8 +95,8 @@ angular.module('infernoQuadrifonicoApp')
                 src: [$scope.roteiro[i].arquivos[c].url],
                 autoplay: false,
                 loop: $scope.roteiro[i].arquivos[c].loop,
-                volume: ($scope.roteiro[i].arquivos[c].volume/100),
-                stereo: $scope.roteiro[i].arquivos[c].pan,
+                volume: ($scope.roteiro[i].arquivos[c].channels[0].volume/100),
+                stereo: $scope.roteiro[i].arquivos[c].channels[0].pan,
                 onend: function(id) {
                   for (var i = 0; i < $scope.roteiro.length; i++) {
                     for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
@@ -120,9 +119,9 @@ angular.module('infernoQuadrifonicoApp')
             $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].pan);
             $scope.roteiro[i].arquivos[c].playing = true;
             var d = $scope.roteiro[i].arquivos[c].sound.duration();
-            var s = $scope.roteiro[i].arquivos[c].seek;
+            var s = $scope.roteiro[i].arquivos[c].channels[0].seek;
             $scope.roteiro[i].arquivos[c].sound.seek((d * s)/100)
-            console.log('Playing: ' + $scope.roteiro[i].arquivos[c].id + " | pan: " + $scope.roteiro[i].arquivos[c].pan + " | volume: " + $scope.roteiro[i].arquivos[c].volume);
+            console.log('Playing: ' + $scope.roteiro[i].arquivos[c].id + " | pan: " + $scope.roteiro[i].arquivos[c].channels[0].pan + " | volume: " + $scope.roteiro[i].arquivos[c].channels[0].volume);
           }
         }
       }
@@ -135,7 +134,7 @@ angular.module('infernoQuadrifonicoApp')
             $scope.roteiro[i].arquivos[c].sound.stop();
             delete $scope.roteiro[i].arquivos[c].sound;
             $scope.roteiro[i].arquivos[c].playing = false;
-            $scope.roteiro[i].arquivos[c].seek = 0;
+            $scope.roteiro[i].arquivos[c].channels[0].seek = 0;
             console.log('Finished: ' + $scope.roteiro[i].arquivos[c].id + " | playing: " + $scope.roteiro[i].arquivos[c].playing);
           }
         }
@@ -146,23 +145,23 @@ angular.module('infernoQuadrifonicoApp')
       for (var i = 0; i < $scope.roteiro.length; i++) {
         for (var c = 0; c < $scope.roteiro[i].arquivos.length; c++) {
           if($scope.roteiro[i].arquivos[c].url == arquivo.url){
-            if(arquivo.seek){
-              $scope.roteiro[i].arquivos[c].seek = arquivo.seek;
+            if(arquivo.channels[0].seek){
+              $scope.roteiro[i].arquivos[c].channels[0].seek = arquivo.channels[0].seek;
               var d = $scope.roteiro[i].arquivos[c].sound.duration();
-              var s = $scope.roteiro[i].arquivos[c].seek;
+              var s = $scope.roteiro[i].arquivos[c].channels[0].seek;
               var v = $scope.roteiro[i].arquivos[c].sound.seek();
               $scope.roteiro[i].arquivos[c].sound.seek(s)
               console.log("seek: " + s);
             }
-            if(arquivo.volume){
-              $scope.roteiro[i].arquivos[c].volume = arquivo.volume;
-              $scope.roteiro[i].arquivos[c].sound.volume($scope.roteiro[i].arquivos[c].volume/100);
-              console.log("volume: " + $scope.roteiro[i].arquivos[c].sound.volume() + " | " + $scope.roteiro[i].arquivos[c].volume);
+            if(arquivo.channels[0].volume){
+              $scope.roteiro[i].arquivos[c].channels[0].volume = arquivo.channels[0].volume;
+              $scope.roteiro[i].arquivos[c].sound.volume($scope.roteiro[i].arquivos[c].channels[0].volume/100);
+              console.log("volume: " + $scope.roteiro[i].arquivos[c].sound.volume() + " | " + $scope.roteiro[i].arquivos[c].channels[0].volume);
             }
-            if(arquivo.pan){
-              $scope.roteiro[i].arquivos[c].pan = arquivo.pan;
-              $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].pan/100);
-              console.log("pan: " + $scope.roteiro[i].arquivos[c].sound.stereo() + " | " + $scope.roteiro[i].arquivos[c].pan);
+            if(arquivo.channels[0].pan){
+              $scope.roteiro[i].arquivos[c].channels[0].pan = arquivo.channels[0].pan;
+              $scope.roteiro[i].arquivos[c].sound.stereo($scope.roteiro[i].arquivos[c].channels[0].pan/100);
+              console.log("pan: " + $scope.roteiro[i].arquivos[c].sound.stereo() + " | " + $scope.roteiro[i].arquivos[c].channels[0].pan);
             }
             break;
           }

@@ -88,7 +88,7 @@ body {
 
 .jslider.jslider-single {
   margin-bottom: 0px;
-  height: 45px;
+  height: 26px;
 }
 
 .file-box {
@@ -100,7 +100,7 @@ body {
   padding-right: 26px;
   padding-bottom: 0px;
   padding-bottom: 0px;
-  height: 40px;
+  height: 75px;
   padding-top: 5px;
 }
 
@@ -126,21 +126,26 @@ body {
 
 .play-control {
   float: left;
-  width: 6%;
+  width: 11%;
   margin-right: 4%;
 }
 
 .play-control i {
-  font-size: 35px;
+  font-size: 66px;
 }
 
 .play-control:hover {
   color: red;
 }
 
+.channels-control {
+  float: left;
+  width: 85%;
+}
+
 .seek-control {
   float: left;
-  width: 36%;
+  width: 46%;
   margin-right: 4%;
   margin-top: 3px;
 }
@@ -213,8 +218,8 @@ body {
   position: absolute;
   font-size: 9px;
   color: #999;
-  margin-top: 13px;
-  margin-left: 49px;
+  margin-top: 14px;
+  margin-left: 0px;
   text-align: center;
-  width: 176px;
+  width: 191px;
 }
