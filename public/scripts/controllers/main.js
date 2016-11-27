@@ -10,7 +10,7 @@
 angular.module('infernoQuadrifonicoApp')
   .controller('MainCtrl', function ($http, $scope, $interval, $localStorage) {
 
-    var useLocalStorage = false;
+    var useLocalStorage = true;
     var socket = io("", { query: "type=controller"});
     $scope.playing = [];
 
@@ -49,7 +49,7 @@ angular.module('infernoQuadrifonicoApp')
           $localStorage.roteiro = angular.copy($scope.roteiro);
           console.log("Autosaving...")
           //console.log($localStorage);
-        }, 15000);
+        }, 60000);
         //$interval.cancel(interval);
     });
 
@@ -113,9 +113,14 @@ angular.module('infernoQuadrifonicoApp')
 
             $scope.roteiro[i].arquivos[c].playing = true;
             var d = $scope.roteiro[i].arquivos[c].duration;
-            var s = $scope.roteiro[i].arquivos[c].seek;
+            var s1 = $scope.roteiro[i].arquivos[c].channels[0].seek;
+            var s2 = $scope.roteiro[i].arquivos[c].channels[1].seek;
+            var volume1 = $scope.roteiro[i].arquivos[c].channels[0].volume
+            var volume2 = $scope.roteiro[i].arquivos[c].channels[1].volume
+            var pan1 = $scope.roteiro[i].arquivos[c].channels[0].pan
+            var pan2 = $scope.roteiro[i].arquivos[c].channels[1].pan
             $scope.roteiro[i].arquivos[c].channels[0].seek;
-            console.log('Playing: ' + $scope.roteiro[i].arquivos[c].id + " | " + Math.floor((d * s)/100));
+            console.log('Playing: ' + $scope.roteiro[i].arquivos[c].url.split("public/audio/").pop() + " ("+ volume1 + "/" + volume2 + " | " + pan1 + "/" + pan2 + ")");
             sendPlayCommand($scope.roteiro[i].arquivos[c]);
           }
         }
@@ -131,7 +136,7 @@ angular.module('infernoQuadrifonicoApp')
             $scope.roteiro[i].arquivos[c].playing = false;
             //$scope.roteiro[i].arquivos[c].seek = 0;
             sendStopCommand($scope.roteiro[i].arquivos[c])
-            console.log('Finished: ' + $scope.roteiro[i].arquivos[c].id + " | " + $scope.roteiro[i].arquivos[c].playing);
+            console.log('Finished: ' + $scope.roteiro[i].arquivos[c].url + " | " + $scope.roteiro[i].arquivos[c].playing);
           }
         }
       }
@@ -267,6 +272,8 @@ angular.module('infernoQuadrifonicoApp')
             }
             delete arquivo.channels[0].pan;
             delete arquivo.channels[0].seek;
+            delete arquivo.channels[1].pan;
+            delete arquivo.channels[1].seek;
             socket.emit('update playback', arquivo);
           }
         }
@@ -284,6 +291,8 @@ angular.module('infernoQuadrifonicoApp')
             }
             delete arquivo.channels[0].volume;
             delete arquivo.channels[0].seek;
+            delete arquivo.channels[1].volume;
+            delete arquivo.channels[1].seek;
             socket.emit('update playback', arquivo);
           }
         }

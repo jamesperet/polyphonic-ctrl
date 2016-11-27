@@ -26,7 +26,7 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
+      .when('/player', {
         templateUrl: 'public/scripts/views/player.html',
         controller: 'PlayerCtrl',
         controllerAs: 'player'

@@ -26,7 +26,7 @@ io.on('connection', function(socket){
 
   socket.on('play', function(file){
     io.emit('play', file);
-    console.log('playing file: ' + file.url + " | volume: " + file.channels[0].volume + " | pan: " + file.channels[0].pan );
+    console.log('playing: ' + file.url.split("public/audio/").pop() + " (" + file.channels[0].volume + "/" + file.channels[1].volume + " | " + file.channels[0].pan + "/" + file.channels[1].pan + ")" );
   });
 
   socket.on('stop', function(file){
