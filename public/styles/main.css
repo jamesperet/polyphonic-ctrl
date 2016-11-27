@@ -1,0 +1,220 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.jslider-value.ng-binding {
+  display: none;
+}
+
+.jslider.jslider-single {
+  margin-bottom: 0px;
+  height: 45px;
+}
+
+.file-box {
+  background-color: #232323;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding: 13px;
+  padding-right: 26px;
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.jslider div.jslider-label { visibility: hidden; }
+
+.jslider div.jslider-scale { top: -7px; }
+
+.jslider div.jslider-scale span {
+  border: none;
+}
+
+.jslider div.jslider-scale ins {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: 9px;
+  text-decoration: none;
+  color: #999;
+  text-align: center;
+  left: -15px;
+  min-width: 32px;
+}
+
+.play-control {
+  float: left;
+  width: 6%;
+  margin-right: 4%;
+}
+
+.play-control i {
+  font-size: 35px;
+}
+
+.play-control:hover {
+  color: red;
+}
+
+.seek-control {
+  float: left;
+  width: 36%;
+  margin-right: 4%;
+  margin-top: 3px;
+}
+
+.volume-control {
+  float: left;
+  width: 23%;
+  margin-right: 4%;
+  margin-top: 3px;
+}
+.pan-control {
+  float: left;
+  width: 23%;
+  margin-top: 3px;
+}
+
+.surround-surround-x-control {
+  float: left;
+  width: 10%;
+  margin-right: 3%;
+  margin-top: 3px;
+}
+
+.surround-surround-y-control {
+  float: left;
+  width: 10%;
+  margin-top: 3px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.menu {
+  position: fixed;
+  right: 20px;
+  top: -5px;
+}
+
+.menu li {
+  float: right;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.menu a {
+  margin: 0px;
+  font-size: 16px;
+  margin-top: -1px;
+}
+
+.menu a:hover {
+  color: red;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu i { font-size: 30px;}
+
+.menu i:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.nota i {
+  cursor: pointer;
+}
+
+.file-name {
+  position: absolute;
+  font-size: 9px;
+  color: #999;
+  margin-top: 13px;
+  margin-left: 49px;
+  text-align: center;
+  width: 176px;
+}

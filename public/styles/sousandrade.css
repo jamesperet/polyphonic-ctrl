@@ -1,0 +1,378 @@
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:20px;
+	line-height: 35px;
+	background-color: #000;
+	font-family: helvetica, arial;line-height:35px;
+	color:#fff;
+	}
+
+#corpo {
+	width: 550px;
+	margin: 0 auto;
+	height:auto;
+	text-align:center;
+	}
+
+.ci {
+		color:#00ffff;
+		}
+
+
+p {
+	margin:0;
+	padding: 0;
+	}
+
+.nota {
+	padding: 10px;
+}
+
+.nota p {
+	cursor: pointer;
+}
+
+.nota:hover {
+	background-color:#f00;
+	}
+
+.leitura {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.leitura:hover {
+	background-color:#00f;
+	cursor: default;
+}
+
+.estrofe {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+		.bl {
+			position: relative;
+			width: 100%; height: 100%;
+
+			}
+
+		.audio {
+			position: absolute;
+			top: 0;
+			height: 0;
+			width: 0;
+			overflow: hidden;
+			}
+
+
+
+	#videoa {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+#videocol {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	}
+
+
+		.video {
+			height: auto;
+			position: relative;
+			width: 100%;
+			float:right;
+			display:block;
+			}
+
+
+	#videog {
+		position: absolute;
+		top:300px;
+		width: 100%;
+		height: 0;
+		overflow: visible;
+		}
+
+
+a {display: block; margin-top:108px; padding-left: 0px;}
+
+	a {text-decoration:none; font-size:20px; color:#fff; font-family: helvetica, arial;line-height:35px;}
+	a:hover {text-decoration:none; background-color:transparent; color:#000;}
+
+
+.col {
+	width:33.3%;
+	height:100%;
+	float:left;
+	}
+
+.m {margin: 0;padding: 0;position: absolute;top: 0px;}
+
+#au {
+    width: 1240px;
+    padding: 0px;
+    height: 530px;
+    margin-left: 100PX;
+    margin-top: 80PX;
+}
+#au > audio {
+    width: 200px;
+}
+
+
+a {z-index: 10;}
+
+.faixa div {z-index:15}
+
+a:hover {
+	background-color:#f00;
+	}
+
+
+audio {
+	width:100%;
+	height:35px;
+	background-color:#000;
+	z-index: 10;}
+
+#faixas {
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+
+	}
+
+.faixa {
+	width:50%;
+	float:left;
+	overflow:hidden;
+	line-height:20px;
+	z-index: 8;
+	padding-right: 5px solid #000;
+	}
+
+.faixa2 {
+	background-color:#f00;
+	width:25%;
+	float:left;
+	overflow:hidden;
+	line-height:20px;
+	}
+
+
+
+
+
+img {width:100%;height:auto;}
+
+#faixa1 .m:hover {background-color:#f0f}
+#faixa2 .m:hover {background-color:#f00}
+#faixa3 .m:hover {background-color:#ff0}
+#faixa4 .m:hover {background-color:#0f0}
+#faixa5 .container {height: 21500px; position: relative; top:-10500px; width:100%}
+#faixa5 .dragv {position: relative; top:10500px;}
+
+
+#faixa1 h1, #faixa1 h2, #faixa1 h3 {color:#f0f;}
+#faixa2 h1, #faixa2 h2, #faixa2 h3 {color:#f00;}
+#faixa3 h1, #faixa3 h2, #faixa3 h3 {color:#ff0;}
+#faixa4 h1, #faixa4 h2, #faixa4 h3 {color:#0f0;}
+#faixa5 h1, #faixa5 h2, #faixa5 h3 {color:#0ff;}
+#faixa6 h1, #faixa6 h2, #faixa6 h3 {color:#fff;}
+
+#faixa1 .m:hover {background-color:#f0f}
+#faixa2 .m:hover {background-color:#f00}
+#faixa3 .m:hover {background-color:#ff0}
+#faixa4 .m:hover {background-color:#0f0}
+#faixa5 .m:hover {background-color:#0ff}
+#faixa6 .m:hover {background-color:#00f}
+
+/*#faixa1 .g:hover {background-color:#f0f}
+#faixa2 .g:hover {background-color:#f00}
+
+#faixa4 .g:hover {background-color:#0f0}
+#faixa5 .g:hover {background-color:#0ff}*/
+
+
+#faixa1 .p:hover {background-color:#f0f}
+#faixa2 .p:hover {background-color:#f00}
+#faixa3 .p:hover {background-color:#ff0}
+#faixa4 .p:hover {background-color:#0f0}
+#faixa5 .p:hover {background-color:#0ff}
+#faixa6 .p:hover {background-color:#00f}
+
+#faixa2 .e:hover {background-color:#f0f}
+#faixa3 .e:hover {background-color:#f00}
+#faixa4 .e:hover {background-color:#ff0}
+#faixa5 .e:hover {background-color:#0f0}
+#faixa6 .e:hover {background-color:#0ff}
+#faixa1 .e:hover {background-color:#00f}
+
+#faixa6 .d:hover {background-color:#f0f}
+#faixa1 .d:hover {background-color:#f00}
+#faixa2 .d:hover {background-color:#ff0}
+#faixa3 .d:hover {background-color:#0f0}
+#faixa4 .d:hover {background-color:#0ff}
+#faixa5 .d:hover {background-color:#00f}
+
+#faixa1 .c:hover {background-color:#f0f}
+#faixa2 .c:hover {background-color:#f00}
+#faixa3 .c:hover {background-color:#ff0}
+#faixa4 .c:hover {background-color:#0f0}
+#faixa5 .c:hover {background-color:#0ff}
+#faixa6 .c:hover {background-color:#00f}
+
+#faixa1 .pl:hover {background-color:#f0f}
+#faixa2 .pl:hover {background-color:#f00}
+#faixa3 .pl:hover {background-color:#ff0}
+#faixa4 .pl:hover {background-color:#0f0}
+#faixa5 .pl:hover {background-color:#0ff}
+#faixa6 .pl:hover {background-color:#00f}
+
+#faixa1 .pa:hover {background-color:#f0f}
+#faixa2 .pa:hover {background-color:#f00}
+#faixa3 .pa:hover {background-color:#ff0}
+#faixa4 .pa:hover {background-color:#0f0}
+#faixa5 .pa:hover {background-color:#0ff}
+#faixa6 .pa:hover {background-color:#00f}
+
+#faixa1 .pp:hover {background-color:#f0f}
+#faixa2 .pp:hover {background-color:#f00}
+#faixa3 .pp:hover {background-color:#ff0}
+#faixa4 .pp:hover {background-color:#0f0}
+#faixa5 .pp:hover {background-color:#0ff}
+#faixa6 .pp:hover {background-color:#00f}
+
+#faixa1 .br:hover {background-color:#fff}
+#faixa2 .br:hover {background-color:#fff}
+#faixa3 .br:hover {background-color:#fff}
+#faixa4 .br:hover {background-color:#fff}
+#faixa5 .br:hover {background-color:#fff}
+#faixa6 .br:hover {background-color:#fff}
+
+h1 {font-size:80px; line-height:80px; background-color:#000}
+h2 {font-size:60px; line-height:60px; background-color:#000; font-weight:normal}
+h3 {font-size:40px; line-height:40px; background-color:#000; font-weight:normal}
+
+h4 {font-size:24px; line-height:28px; color:#000}
+h5 {font-size:10px; line-height:10px; color:#000}
+
+
+#faixa1 h5, #faixa1 h4{
+	background-color:#f0f;
+	text-align:right;
+	}
+
+#faixa2 h5, #faixa2 h4{
+	background-color:#f00;
+	text-align:left;
+	}
+
+#faixa3 h5, #faixa3 h4{
+	background-color:#ff0;
+	text-align:right;
+	}
+
+#faixa4 h5, #faixa4 h4{
+	background-color:#0f0;
+	text-align:left;
+	}
+
+#faixa5 h5, #faixa5 h4{
+	background-color:#0ff;
+	text-align:left;
+	}
+
+
+
+#faixa6 h5, #faixa6 h4{
+	background-color:#fff;
+	text-align:left;
+	}
+
+
+h5, h4, h3, h2, h1 {
+	margin:0;
+
+
+	}
+
+h5, h4 {
+	width:100%;
+	float:left;
+	}
+
+.ppp {min-height: 36px;}
+
+.pp {min-height: 72px;}
+
+.p {min-height: 108px;position: relative;}
+
+.c {text-align:center;}
+
+.m {min-height: 180px;position: relative;}
+
+.g {min-height: 288px;position: relative;}
+
+.gg {min-height:468px;position:relative;}
+
+.ggg {height: 756px;position:relative;}
+
+.tl {height: 1224px;position:relative; }
+
+
+
+.e {text-align: left}
+.d {text-align: right}
+
+.n {text-decoration: underline;}
+
+.sp1 {padding-left: 28px}
+.sp2 {padding-left: 56px}
+
+
+
+.pl {background: no-repeat; text-align: right;
+}
+
+.pl audio { width:62%}
+
+a.pa {background:  no-repeat right;
+width: 38%;float:left;}
+
+a.pe {background:  no-repeat right;
+width: 62%;float:left;}
+
+.po audio  { width:62%}
+
+.tm {
+	font-size: 28px;
+	line-height: 56px;
+	}
+
+.tg {
+	font-size: 56px;
+	line-height: 56px;
+	}
+
+.tgg {
+	font-size: 94px;
+	line-height: 84px;
+	}
+
+.tp {
+	font-size: 10px;
+	line-height: 16px;
+	font-family: century, times, sans-serif
+
+	}

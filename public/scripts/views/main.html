@@ -1,0 +1,41 @@
+<div class="menu">
+  <ul>
+    <li><i ng-click="stopPlayback()" class="fa fa-stop"></i></li>
+    <li><a ng-click="changeSoundMode()" ng-hide="false">{{sound_mode}}</a> </li>
+  </ul>
+</div>
+
+<div id="corpo">
+  <div class="estrofe" ng-repeat="estrofe in roteiro track by $index">
+    <div class="nota">
+      <p ng-bind-html="estrofe.nota" ng-click="playAudio(estrofe)"></p>
+      <div class="file-box" ng-repeat="arquivo in estrofe.arquivos track by $index" ng-show="arquivo.show">
+        <!-- <audio controls="" id="nota1a" src="{{arquivo.url}}">
+        </audio> -->
+        <!-- <rzslider rz-slider-model="roteiro[$parent.$index].arquivos[$index].volume" rz-slider-options="create_slider"></rzslider> -->
+        <div class="play-control">
+          <i ng-hide="arquivo.playing" ng-click="playAudioFile(arquivo)" class="fa fa-play"></i>
+          <i ng-hide="!arquivo.playing" ng-click="stopAudioFile(arquivo)" class="fa fa-pause"></i>
+        </div>
+        <div class="file-name" id="">{{arquivo.url.split("audio/").pop()}}</div>
+        <div class="seek-control">
+          <input ng-model="arquivo.seek"  type="range" id="mySlider1" slider options="options_seek"/>
+        </div>
+        <div class="volume-control">
+          <input ng-model="arquivo.volume"  type="range" id="mySlider2" slider options="options_volume"/>
+        </div>
+        <div class="pan-control" ng-show="isStereo()">
+          <input ng-model="arquivo.pan"  type="range" id="mySlider3" slider options="options_pan"/>
+        </div>
+        <div ng-hide="isStereo()" class="surround-surround-x-control">
+          <input ng-model="arquivo.surround_x"  type="range" id="mySlider3" slider options="options_surround_x"/>
+        </div>
+        <div ng-hide="isStereo()" class="surround-surround-y-control">
+          <input ng-model="arquivo.surround_y"  type="range" id="mySlider3" slider options="options_surround_y"/>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <div class="leitura" ng-hide="isEmpty(estrofe.leitura)"> <p ng-bind-html="estrofe.leitura"></p></div>
+  </div>
+</div>
