@@ -2119,7 +2119,14 @@
           "url" : "public/audio/wav/176x.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
-        },
+        }
+      ]
+    },
+    {
+      "nota": "X",
+      "leitura": "",
+      "playall" : true,
+      "arquivos" : [
         {
           "url" : "public/audio/ruidos/samples_simposio/hahaha_oswald.wav",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
