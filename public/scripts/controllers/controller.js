@@ -8,7 +8,7 @@
  * Controller of the infernoQuadrifonicoApp
  */
 angular.module('infernoQuadrifonicoApp')
-  .controller('MainCtrl', function ($http, $scope, $interval, $localStorage) {
+  .controller('ControllerCtrl', function ($http, $scope, $interval, $localStorage) {
 
     var useLocalStorage = false;
     var socket = io("", { query: "type=controller"});

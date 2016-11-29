@@ -22,9 +22,14 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'public/scripts/views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        templateUrl: 'public/scripts/views/start.html',
+        controller: 'StartCtrl',
+        controllerAs: 'start'
+      })
+      .when('/controller', {
+        templateUrl: 'public/scripts/views/controller.html',
+        controller: 'ControllerCtrl',
+        controllerAs: 'controller'
       })
       .when('/player', {
         templateUrl: 'public/scripts/views/player.html',
