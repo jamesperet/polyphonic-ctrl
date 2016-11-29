@@ -6,12 +6,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/001x.wav",
+          "url" : "public/audio/passagens/001x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/ritmo.wav",
+          "url" : "public/audio/passagens/ritmo.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -23,12 +23,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/002xa.wav",
+          "url" : "public/audio/passagens/002xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/kendrick3a.wav",
+          "url" : "public/audio/passagens/kendrick3a.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -41,7 +41,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/003xc.wav",
+          "url" : "public/audio/passagens/003xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -66,7 +66,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/004xc.wav",
+          "url" : "public/audio/passagens/004xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -78,7 +78,7 @@
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/Cash_Register_4.wav",
+          "url" : "public/audio/ruidos/Cash_Register_4.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -91,13 +91,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/005x.wav",
+          "url" : "public/audio/passagens/005x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/trem.wav",
+          "url" : "public/audio/ruidos/trem.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -110,13 +110,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/007x.wav",
+          "url" : "public/audio/passagens/007x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/mob_vaia_joao.wav",
+          "url" : "public/audio/ruidos/samples_simposio/mob_vaia_joao.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -129,91 +129,91 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/008x.wav",
+          "url" : "public/audio/passagens/008x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/006x.wav3",
+          "url" : "public/audio/passagens/006x.mp33",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "ruidos/samples_simposio/jupiter.wav",
+          "url" : "ruidos/samples_simposio/jupiter.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/010xa.wav",
+          "url" : "public/audio/passagens/010xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/011xa.wav",
+          "url" : "public/audio/passagens/011xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/012X.wav",
+          "url" : "public/audio/passagens/012X.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/014xa.wav",
+          "url" : "public/audio/passagens/014xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/015b.wav",
+          "url" : "public/audio/passagens/015b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/016x.wav",
+          "url" : "public/audio/passagens/016x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/018xb.wav",
+          "url" : "public/audio/passagens/018xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/gelowhisky.wav",
+          "url" : "public/audio/ruidos/gelowhisky.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/019xb.wav",
+          "url" : "public/audio/passagens/019xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/020xa.wav",
+          "url" : "public/audio/passagens/020xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick2.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick2.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/todos.wav",
+          "url" : "public/audio/ruidos/samples_simposio/todos.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -226,13 +226,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/017xc.wav",
+          "url" : "public/audio/passagens/017xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/cash17.wav",
+          "url" : "public/audio/ruidos/cash17.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -245,7 +245,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/022xc.wav",
+          "url" : "public/audio/passagens/022xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -264,13 +264,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/028xb.wav",
+          "url" : "public/audio/passagens/028xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/sino_silencio.wav",
+          "url" : "public/audio/ruidos/samples_simposio/sino_silencio.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -283,7 +283,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/023.wav",
+          "url" : "public/audio/passagens/023.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -296,7 +296,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/024x.wav",
+          "url" : "public/audio/passagens/024x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -309,7 +309,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/025x.wav",
+          "url" : "public/audio/passagens/025x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -322,7 +322,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/026x.wav",
+          "url" : "public/audio/passagens/026x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -335,7 +335,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/029x.wav",
+          "url" : "public/audio/passagens/029x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -348,7 +348,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/030xa.wav",
+          "url" : "public/audio/passagens/030xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -361,13 +361,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/031.wav",
+          "url" : "public/audio/passagens/031.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/bessie.wav",
+          "url" : "public/audio/ruidos/bessie.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -380,7 +380,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/032xb.wav",
+          "url" : "public/audio/passagens/032xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -393,7 +393,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/033xa.wav",
+          "url" : "public/audio/passagens/033xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -406,13 +406,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/035xa.wav",
+          "url" : "public/audio/passagens/035xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/maquina_de_escrever.wav3",
+          "url" : "public/audio/ruidos/samples_simposio/maquina_de_escrever.mp33",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -425,13 +425,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/037x.wav",
+          "url" : "public/audio/passagens/037x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kapital.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kapital.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -444,7 +444,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/038x.wav",
+          "url" : "public/audio/passagens/038x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -457,7 +457,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/021xc.wav",
+          "url" : "public/audio/passagens/021xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -470,13 +470,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/051xa.wav",
+          "url" : "public/audio/passagens/051xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/codigo%20morse.wav",
+          "url" : "public/audio/ruidos/codigo%20morse.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -489,7 +489,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/041x.wav",
+          "url" : "public/audio/passagens/041x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -502,7 +502,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/034.wav",
+          "url" : "public/audio/passagens/034.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -515,7 +515,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/036x.wav",
+          "url" : "public/audio/passagens/036x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -534,7 +534,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/049xa.wav",
+          "url" : "public/audio/passagens/049xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -553,7 +553,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/050xb.wav",
+          "url" : "public/audio/passagens/050xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -566,7 +566,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/052.wav",
+          "url" : "public/audio/passagens/052.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -579,7 +579,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/053.wav",
+          "url" : "public/audio/passagens/053.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -592,7 +592,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/054xa.wav",
+          "url" : "public/audio/passagens/054xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -605,7 +605,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/047x.wav",
+          "url" : "public/audio/passagens/047x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -618,7 +618,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/042x.wav",
+          "url" : "public/audio/passagens/042x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -631,7 +631,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/056xa.wav",
+          "url" : "public/audio/passagens/056xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -644,7 +644,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/057xb.wav",
+          "url" : "public/audio/passagens/057xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -657,7 +657,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/059.wav",
+          "url" : "public/audio/passagens/059.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -670,7 +670,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/060c.wav",
+          "url" : "public/audio/passagens/060c.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -683,7 +683,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/043x.wav",
+          "url" : "public/audio/passagens/043x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -696,7 +696,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/044x.wav",
+          "url" : "public/audio/passagens/044x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -709,7 +709,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/045xb.wav",
+          "url" : "public/audio/passagens/045xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -722,7 +722,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/046x.wav",
+          "url" : "public/audio/passagens/046x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -735,7 +735,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/048xb.wav",
+          "url" : "public/audio/passagens/048xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -748,7 +748,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/003xc.wav",
+          "url" : "public/audio/passagens/003xc.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -767,7 +767,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/055x.wav",
+          "url" : "public/audio/passagens/055x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -780,7 +780,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/061x.wav",
+          "url" : "public/audio/passagens/061x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -799,7 +799,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/062xa.wav",
+          "url" : "public/audio/passagens/062xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -812,7 +812,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/067.wav",
+          "url" : "public/audio/passagens/067.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -825,13 +825,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/068y.wav",
+          "url" : "public/audio/passagens/068y.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/quem.wav",
+          "url" : "public/audio/ruidos/samples_simposio/quem.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -844,7 +844,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/069x.wav",
+          "url" : "public/audio/passagens/069x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -857,7 +857,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/070x.wav",
+          "url" : "public/audio/passagens/070x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -870,7 +870,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/073xa.wav",
+          "url" : "public/audio/passagens/073xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -883,7 +883,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/071x.wav",
+          "url" : "public/audio/passagens/071x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -896,13 +896,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/072x.wav",
+          "url" : "public/audio/passagens/072x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/rouxinol.wav",
+          "url" : "public/audio/ruidos/rouxinol.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -915,7 +915,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/074x.wav",
+          "url" : "public/audio/passagens/074x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -928,7 +928,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/075.wav",
+          "url" : "public/audio/passagens/075.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -941,7 +941,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/081x.wav",
+          "url" : "public/audio/passagens/081x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -960,13 +960,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/085.wav",
+          "url" : "public/audio/passagens/085.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/nota_haroldo.wav",
+          "url" : "public/audio/ruidos/samples_simposio/nota_haroldo.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -979,7 +979,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/082.wav",
+          "url" : "public/audio/passagens/082.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -992,7 +992,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/083x.wav",
+          "url" : "public/audio/passagens/083x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1005,7 +1005,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/090xa.wav",
+          "url" : "public/audio/passagens/090xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1018,7 +1018,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/094.wav",
+          "url" : "public/audio/passagens/094.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1031,7 +1031,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/097x.wav",
+          "url" : "public/audio/passagens/097x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1044,7 +1044,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/101x.wav",
+          "url" : "public/audio/passagens/101x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1057,7 +1057,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/084xa.wav",
+          "url" : "public/audio/passagens/084xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1070,7 +1070,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/087xa.wav",
+          "url" : "public/audio/passagens/087xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1083,13 +1083,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/088x.wav",
+          "url" : "public/audio/passagens/088x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/cash88.wav",
+          "url" : "public/audio/ruidos/cash88.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1102,13 +1102,13 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/089x.wav",
+          "url" : "public/audio/passagens/089x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/MAIS_SAMPLES/vedemecum.wav",
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/vedemecum.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1121,7 +1121,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/092c.wav",
+          "url" : "public/audio/passagens/092c.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
 
           "loop" : false
@@ -1134,7 +1134,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/096.wav",
+          "url" : "public/audio/passagens/096.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1146,7 +1146,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/098c.wav",
+          "url" : "public/audio/passagens/098c.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1158,12 +1158,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/102.wav",
+          "url" : "public/audio/passagens/102.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/redondo.wav",
+          "url" : "public/audio/ruidos/samples_simposio/redondo.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1175,7 +1175,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/103x.wav",
+          "url" : "public/audio/passagens/103x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1187,7 +1187,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/104x.wav",
+          "url" : "public/audio/passagens/104x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1199,7 +1199,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/105.wav",
+          "url" : "public/audio/passagens/105.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1211,7 +1211,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/procissao_mixdown.wav",
+          "url" : "public/audio/ruidos/samples_simposio/procissao_mixdown.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1223,7 +1223,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/110x.wav",
+          "url" : "public/audio/passagens/110x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1235,7 +1235,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/111.wav",
+          "url" : "public/audio/passagens/111.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1247,12 +1247,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/112x.wav",
+          "url" : "public/audio/passagens/112x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/112.wav",
+          "url" : "public/audio/ruidos/112.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1264,12 +1264,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/114b.wav",
+          "url" : "public/audio/passagens/114b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/tiro.wav",
+          "url" : "public/audio/ruidos/tiro.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1281,7 +1281,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/107.wav",
+          "url" : "public/audio/passagens/107.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
@@ -1298,7 +1298,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/108.wav",
+          "url" : "public/audio/passagens/108.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1310,7 +1310,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/109x.wav",
+          "url" : "public/audio/passagens/109x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1322,7 +1322,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/113.wav",
+          "url" : "public/audio/passagens/113.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1334,7 +1334,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/115c.wav",
+          "url" : "public/audio/passagens/115c.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1346,7 +1346,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/116x.wav",
+          "url" : "public/audio/passagens/116x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1358,62 +1358,62 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/117.wav",
+          "url" : "public/audio/passagens/117.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo3.wav",
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo3.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo4.wav",
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo4.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo5.wav",
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo5.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/ouro_terra_amor_rosas.wav",
+          "url" : "public/audio/ruidos/samples_simposio/ouro_terra_amor_rosas.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/idontknow.wav",
+          "url" : "public/audio/ruidos/samples_simposio/idontknow.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/pitch.wav",
+          "url" : "public/audio/ruidos/samples_simposio/pitch.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick2.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick2.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick3.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick3.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick4.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick4.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick5.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick5.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/kendrick6.wav",
+          "url" : "public/audio/ruidos/samples_simposio/kendrick6.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1425,7 +1425,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/118.wav",
+          "url" : "public/audio/passagens/118.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1437,7 +1437,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/119b.wav",
+          "url" : "public/audio/passagens/119b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
@@ -1447,7 +1447,7 @@
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo_2.wav",
+          "url" : "public/audio/ruidos/MAIS_SAMPLES/nota_haroldo_2.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1459,7 +1459,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/120xa.wav",
+          "url" : "public/audio/passagens/120xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1471,12 +1471,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/wav/121x.wav",
+          "url" : "public/audio/ruidos/passagens/121x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/peido_duprat.wav",
+          "url" : "public/audio/ruidos/samples_simposio/peido_duprat.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1488,7 +1488,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/122x.wav",
+          "url" : "public/audio/passagens/122x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1500,12 +1500,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/123.wav",
+          "url" : "public/audio/passagens/123.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/wav/ruidos/samples_simposio/peido_duprat.wav",
+          "url" : "public/audio/passagens/ruidos/samples_simposio/peido_duprat.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1517,7 +1517,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/124.wav",
+          "url" : "public/audio/passagens/124.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1529,7 +1529,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/125xb.wav",
+          "url" : "public/audio/passagens/125xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1541,7 +1541,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/130x.wav",
+          "url" : "public/audio/passagens/130x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1553,7 +1553,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/132x.wav",
+          "url" : "public/audio/passagens/132x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1565,7 +1565,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/137xa.wav",
+          "url" : "public/audio/passagens/137xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1577,7 +1577,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/126x.wav",
+          "url" : "public/audio/passagens/126x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1589,7 +1589,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/127.wav",
+          "url" : "public/audio/passagens/127.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1601,7 +1601,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/128x.wav",
+          "url" : "public/audio/passagens/128x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1613,7 +1613,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/129x.wav",
+          "url" : "public/audio/passagens/129x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1625,7 +1625,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/131xa.wav",
+          "url" : "public/audio/passagens/131xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1637,7 +1637,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/136.wav",
+          "url" : "public/audio/passagens/136.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1649,12 +1649,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/138xb.wav",
+          "url" : "public/audio/passagens/138xb.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/coracao_fade.wav",
+          "url" : "public/audio/ruidos/coracao_fade.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1666,7 +1666,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/139.wav",
+          "url" : "public/audio/passagens/139.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1678,12 +1678,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/140xa.wav",
+          "url" : "public/audio/passagens/140xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/Cash_140.wav",
+          "url" : "public/audio/ruidos/Cash_140.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1695,7 +1695,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/141x.wav",
+          "url" : "public/audio/passagens/141x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1707,7 +1707,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/145.wav",
+          "url" : "public/audio/passagens/145.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1719,12 +1719,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/147x.wav",
+          "url" : "public/audio/passagens/147x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/samples_simposio/arrombado2.wav",
+          "url" : "public/audio/ruidos/samples_simposio/arrombado2.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1736,7 +1736,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/149x.wav",
+          "url" : "public/audio/passagens/149x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1748,7 +1748,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/150x.wav",
+          "url" : "public/audio/passagens/150x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1760,7 +1760,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/148x.wav",
+          "url" : "public/audio/passagens/148x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1772,7 +1772,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/oceano_mixdown.wav",
+          "url" : "public/audio/ruidos/samples_simposio/oceano_mixdown.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1784,7 +1784,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/152.wav",
+          "url" : "public/audio/passagens/152.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1796,7 +1796,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/153b.wav",
+          "url" : "public/audio/passagens/153b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1808,7 +1808,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/142c.wav",
+          "url" : "public/audio/passagens/142c.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1820,7 +1820,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/143x.wav",
+          "url" : "public/audio/passagens/143x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1832,12 +1832,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/144x.wav",
+          "url" : "public/audio/passagens/144x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/cash144.wav",
+          "url" : "public/audio/ruidos/cash144.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1849,7 +1849,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/155.wav",
+          "url" : "public/audio/passagens/155.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1861,7 +1861,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/156.wav",
+          "url" : "public/audio/passagens/156.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1873,7 +1873,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/redivivo.wav",
+          "url" : "public/audio/ruidos/samples_simposio/redivivo.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1885,7 +1885,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/159x.wav",
+          "url" : "public/audio/passagens/159x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1897,7 +1897,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/164xa.wav",
+          "url" : "public/audio/passagens/164xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1909,7 +1909,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/165.wav",
+          "url" : "public/audio/passagens/165.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1921,7 +1921,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/166x.wav",
+          "url" : "public/audio/passagens/166x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1933,7 +1933,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/167b.wav",
+          "url" : "public/audio/passagens/167b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1945,12 +1945,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/168x.wav",
+          "url" : "public/audio/passagens/168x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/francos168.wav",
+          "url" : "public/audio/ruidos/francos168.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1962,7 +1962,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/162x.wav",
+          "url" : "public/audio/passagens/162x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1974,7 +1974,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/160.wav",
+          "url" : "public/audio/passagens/160.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1986,7 +1986,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/154x.wav",
+          "url" : "public/audio/passagens/154x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -1998,7 +1998,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/158.wav",
+          "url" : "public/audio/passagens/158.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2010,7 +2010,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/161x.wav",
+          "url" : "public/audio/passagens/161x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2022,7 +2022,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/169x.wav",
+          "url" : "public/audio/passagens/169x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2034,7 +2034,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/170x.wav",
+          "url" : "public/audio/passagens/170x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2046,7 +2046,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/171b.wav",
+          "url" : "public/audio/passagens/171b.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2058,7 +2058,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/172xa.wav",
+          "url" : "public/audio/passagens/172xa.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2070,7 +2070,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/barbaros_fim2.wav",
+          "url" : "public/audio/ruidos/samples_simposio/barbaros_fim2.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2082,7 +2082,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/174.wav",
+          "url" : "public/audio/passagens/174.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2094,7 +2094,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/praticos_mixdown.wav",
+          "url" : "public/audio/ruidos/samples_simposio/praticos_mixdown.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
@@ -2104,7 +2104,7 @@
           "loop" : false
         },
         {
-          "url" : "public/audio/ruidos/SAMPLER_QUINCY/QUINCY_SAMPLERNOVO2a.wav",
+          "url" : "public/audio/ruidos/SAMPLER_QUINCY/QUINCY_SAMPLERNOVO2a.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2116,7 +2116,7 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/wav/176x.wav",
+          "url" : "public/audio/passagens/176x.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
@@ -2128,12 +2128,12 @@
       "playall" : true,
       "arquivos" : [
         {
-          "url" : "public/audio/ruidos/samples_simposio/hahaha_oswald.wav",
+          "url" : "public/audio/ruidos/samples_simposio/hahaha_oswald.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         },
         {
-          "url" : "public/ruidos/samples_simposio/sample_kendrick.wav",
+          "url" : "public/ruidos/samples_simposio/sample_kendrick.mp3",
           "channels" :[ { "volume" : 20, "pan" : 0 }, { "volume" : 20, "pan" : 0 } ],
           "loop" : false
         }
